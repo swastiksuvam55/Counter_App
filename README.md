@@ -73,7 +73,7 @@ nextjs-counter-app/
 The project uses global styles defined in styles/globals.css. The background image is located in the public/images/ directory.
 
 ## Contributing
-Feel free to contribute to this project. Follow the CONTRIBUTING.md guidelines.
+Feel free to contribute to this project.
 
 ## License
 This project is licensed under the ``MIT License``.
