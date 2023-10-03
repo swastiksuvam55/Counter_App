@@ -1,38 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Counter App
+
+This is a simple React counter application built with Next.js.
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Styling](#styling)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Increment and decrement counter with '+' and '-' buttons.
+- Counter value displayed prominently.
+- Prevent counter from exceeding a predetermined maximum value.
+- Mobile-friendly layout.
+- Styled with a 3D box and background image.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
+Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/nextjs-counter-app.git
+
+# Change into the project directory
+cd nextjs-counter-app
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Visit http://localhost:3000 in your browser to see the counter app.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Folder Structure
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+nextjs-counter-app/
+|-- node_modules/
+|-- public/
+|   |-- images/
+|       |-- background.jpg
+|-- src/
+|   |-- components/
+|       |-- Counter.js
+|-- styles/
+|   |-- globals.css
+|-- .gitignore
+|-- package.json
+|-- README.md
+|-- ...
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Styling
+The project uses global styles defined in styles/globals.css. The background image is located in the public/images/ directory.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributing
+Feel free to contribute to this project. Follow the CONTRIBUTING.md guidelines.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+This project is licensed under the MIT License.
