@@ -8,7 +8,6 @@ This is a simple React counter application built with Next.js.
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Styling](#styling)
 - [Contributing](#contributing)
@@ -50,10 +49,11 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
     ```bash
     npm run dev
 
-5. Visit http://localhost:3000 in your browser to see the counter app.
+5. Visit ``http://localhost:3000`` in your browser to see the counter app.
 
 ## Folder Structure
 
+```
 nextjs-counter-app/
 |-- node_modules/
 |-- public/
@@ -68,7 +68,7 @@ nextjs-counter-app/
 |-- package.json
 |-- README.md
 |-- ...
-
+```
 ## Styling
 The project uses global styles defined in styles/globals.css. The background image is located in the public/images/ directory.
 
@@ -76,4 +76,4 @@ The project uses global styles defined in styles/globals.css. The background ima
 Feel free to contribute to this project. Follow the CONTRIBUTING.md guidelines.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the ``MIT License``.
