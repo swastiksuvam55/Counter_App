@@ -35,16 +35,22 @@ Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.co
    ```bash
    git clone https://github.com/your-username/nextjs-counter-app.git
 
-# Change into the project directory
-cd nextjs-counter-app
+2. Change into the project directory
 
-# Install dependencies
-npm install
+    ```bash
+    cd nextjs-counter-app
 
-# Run the development server
-npm run dev
+3. Install dependencies
 
-# Visit http://localhost:3000 in your browser to see the counter app.
+    ```bash
+    npm install
+
+4. Run the development server
+
+    ```bash
+    npm run dev
+
+5. Visit http://localhost:3000 in your browser to see the counter app.
 
 ## Folder Structure
 
